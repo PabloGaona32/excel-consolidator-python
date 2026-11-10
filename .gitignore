@@ -1,0 +1,5 @@
+logs/
+salida/
+__pycache__/
+*.pyc
+~$*
