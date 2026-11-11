@@ -83,7 +83,7 @@ def ejecutar_proceso():
         lista_dataframes, COLUMNAS_A_SUMAR, COLUMNAS_OBLIGATORIAS, QUITAR_DUPLICADOS, registro_errores
     )
     
-    filas_finales = len(maestra) + 1
+    filas_finales = len(maestra)
     cantidad_duplicados = len(duplicados_eliminados)
     
     if (filas_finales + cantidad_duplicados) != filas_leidas:
